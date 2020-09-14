@@ -1,0 +1,55 @@
+body {
+  background-color: red;
+  color: white;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+  background-color: #696969;
+  padding: 1em;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 20%;
+  margin: 1%;
+}
+
+.square-image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.big-col {
+  flex: 40%;
+  margin: 1%;
+}
+
+.menu-title {
+  text-align: center;
+}
+
+.main-title {
+  width:60%;
+  margin: 0 auto 1em auto;
+  border: 3px solid white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.navigation {
+  width:90%;
+  margin: auto;
+  background-color: black;
+}
+
+.nav-item{
+  display: inline-block;
+  width: 8%;
+  text-align: center;
+}
